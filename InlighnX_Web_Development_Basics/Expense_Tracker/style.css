@@ -1,0 +1,99 @@
+/* Base Reset and Layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 420px;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Typography */
+h1, h2, h3 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.balance {
+  color: #2e7d32;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Transaction Form Styling */
+.transaction-form {
+  margin-bottom: 20px;
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #1976d2;
+}
+
+/* Transaction History Styling */
+.transaction-history ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 6px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
+
+.income {
+  color: #388e3c;
+  font-weight: bold;
+}
+
+.expense {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #d32f2f;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.delete-btn:hover {
+  text-decoration: underline;
+}
